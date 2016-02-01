@@ -6,7 +6,7 @@ gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+#gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -29,6 +29,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 #Use HAML instead of erb for templating
 gem 'haml'
 gem 'haml-rails'
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '> 3.2.0'
+gem 'paperclip', '~> 4.2'
+gem 'sprockets-rails', '~> 2.1.4'
+gem 'devise'
 # Use unicorn as the app server
 # gem 'unicorn'
 
